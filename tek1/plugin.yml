@@ -1,0 +1,11 @@
+main: fr.tonPseudo.leNomDeTonPlugin.leNomDuFichierMain
+author: tonPseudo
+name: leNomDeTonPlugin
+api-version: 1.18.1
+version: 1.0
+depend:
+- PlaceholderAPI
+commands:
+    test:
+        usage: /test
+        description: Une commande de test
