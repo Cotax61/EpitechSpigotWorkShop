@@ -22,3 +22,6 @@ Pour compiler votre plugin, utilisez la commande `mvn package` a la racine du re
 
 Configurez correctement votre [pom.xlm](./pom.xml) et votre [plugin.yml](./plugin.yml), il sont déjà pré-compléter, vous avez juste a modifier les valeurs pour customiser un peu.<br><br>
 
+## Le premier lancement !
+
+Une fois le plugin correctement configurer essayez de lancer votre serveur grace au script [launch.bat]
