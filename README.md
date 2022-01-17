@@ -12,9 +12,11 @@ Prérequis:<br>
 - [Windows chocolatey](https://docs.chocolatey.org/en-us/choco/setup)
 - Power Shell
 - Maven `choco.exe install maven` (Sur un powershell admin)
-- VS Code (Avec l'extention Java)
+- VS Code (Avec l'extention Java) [Fortement recommendé]
 - JDK 1.17
 <br>
 Celon votre niveau en orienté objet, utilisez le niveau correspondant:<br><br>
 
 [Ne connait pas](/tek1/sujet.md)
+[Connait les base de l'OOP (Programmation Orientée Objet)] (En cours d'écriture)
+[Connait bien l'OOP] (En cours d'écriture)
