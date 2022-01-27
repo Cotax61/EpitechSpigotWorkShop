@@ -8,7 +8,7 @@ Vous pouvez utiliser d'autres outils que ceux qui vont vous être lister ci-dess
 Prérequis:<br>
 
 - Windows 10
-- Minecraft launcher 1.18.1
+- Minecraft launcher 1.18.1 (Si vous n'avez pas acheter minecraft utilisez [az launcher](https://www.az-launcher.nz/fr/))
 - [Windows chocolatey](https://docs.chocolatey.org/en-us/choco/setup)
 - Power Shell
 - Maven `choco.exe install maven` (Sur un powershell admin)
