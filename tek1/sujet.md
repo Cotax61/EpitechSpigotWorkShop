@@ -24,7 +24,7 @@ Configurez correctement votre [pom.xlm](./pom.xml) et votre [plugin.yml](./plugi
 
 ## Le premier test ! <br><br>
 
-Une fois tout ça configurer, voyons voir si cela fonctionne, exécturez maven pour compiler,<br>
+Une fois tout ça configurer, voyons voir si cela fonctionne, utilisez `mvn package` pour compiler,<br>
 ensuite allez dans le dossier `mavenbuild` qui a été créer. Dans ce dernier vous trouverez<br>
 votre `.jar`, déplacez le dossier `server/plugins` (si il n'y est pas, lancez le serveur avec un des scripts `start`).<br><br>
 
@@ -39,4 +39,25 @@ Une fois que vous voyez votre plugin en jeu, continuez.<br><br>
 Maintenant la partie sérieuse !<br>
 Spigot est une librairie qui permet d'injecter du code grace a ce qu'on appelle des `eventListeners` ou plus court `Listener`<br>
 Pour commencer dans le dossier `src` éditez le fichier **myListener.java**, pour vous, elle est déjà déclarée et hérite déjà du bon élément<br>
-Créez un event dans cette classe, cet event sera *hook* sur l'event de connection et evera `Hello (nom du joueur)` a ce dernier<br>
+Créez un event dans cette classe, cet event sera *hook* sur l'event de connection et evera `Hello <nom du joueur>` a ce dernier<br>
+Hésitez pas a ajouter des couleurs pour faire plus joli ;)<br><br>
+
+## Ping pong <br> <br>
+
+Maintenant que vous savez créer un event handler de base, nous allons faire notre première commande <br>
+dans votre fichier [plugin.yml](./plugin.yml) ajoutez la commande "ping", une fois exécutée elle renvéra<br>
+"pong" au joueur l'ayant utilisée. liez la commande a une classe qui hérite de `CommandExecutor`. <br>
+une fois cela fais, dans la fonction `onEnable()` de votre main rajoutez un executor a votre commande, recompilez votre plugin et testez la ! <br>
+
+## Un plugin statique <br> <br>
+
+Votre classe main ne peut être instanciée que une seule fois dans le programme <br>
+De préférence nous allons donc stocker nos données avec des variables statiques `static` <br>
+Pour que ces dernières soient accéssibles partout sans a instancier une nouvelle classe. <br>
+De plus, les HashMaps sont souvent utilisées pour stocker des informations sur les joueurs <br><br>
+
+Dans cet exercice, créez un event qui compte le nombre de fois qu'un joueur a sauter <br>
+puis, stockez ce nombre dans une `static public Hashmap<UUID, Integer>` dans votre classe main <br>
+changez l'utilitée de la commande ping pour qu'elle donne le nombre de saut effectuer par l'exécuteur <br>
+
+## Les Item stacks et meta

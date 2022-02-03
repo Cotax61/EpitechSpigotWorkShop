@@ -1,9 +1,9 @@
-main: fr.tonPseudo.leNomDeTonPlugin.leNomDuFichierMain
+main: fr.tonPseudo.monPremierPlugin.monPremierPlugin
 author: tonPseudo
-name: leNomDeTonPlugin
-api-version: 1.18.1
+name: monPremierPlugin
+api-version: 1.18
 version: 1.0
-depend:
+softdepend:
 - PlaceholderAPI
 commands:
     test:
