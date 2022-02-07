@@ -69,6 +69,7 @@ Une fois que le joueur aura exécuter la commande `/invincible` tout les events 
 seront annuler, le rendant totalement invincible !<br>
 
 <details>
+    <summary>Indice</summary>
 
 Modifiez le fichier [plugin.yml](plugin.yml) pour rajouter la commande (suivez l'exemple de la première commande)<br>
 Quand un joueur tape la commande, stockez le dans une `hashmap`.<br>
