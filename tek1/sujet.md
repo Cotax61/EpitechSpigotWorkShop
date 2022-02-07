@@ -17,6 +17,8 @@ Pour avoir un exemple de code, regardez les fichier suivants: <br><br>
 ## A savoir <br><br>
 
 Pour compiler votre plugin, utilisez la commande `mvn package` a la racine du repository, il est déjà pré-rempli, mais **n'oubliez pas de modifier le sourceDirectory**, il se trouve tout en bas du [pom.xml](./pom.xml)<br><br>
+Après chaque compilation, n'oubliez pas de déplacer le `.jar` de `./target` dans
+le dossier `../server/plugin`, puis effectuez la commande `/reload confirm` sur le serveur.
 
 ## La configuration <br><br>
 
@@ -58,6 +60,25 @@ De plus, les HashMaps sont souvent utilisées pour stocker des informations sur 
 
 Dans cet exercice, créez un event qui compte le nombre de fois qu'un joueur a sauter <br>
 puis, stockez ce nombre dans une `static public Hashmap<UUID, Integer>` dans votre classe main <br>
-changez l'utilitée de la commande ping pour qu'elle donne le nombre de saut effectuer par l'exécuteur <br>
+changez l'utilitée de la commande ping pour qu'elle donne le nombre de saut effectuer par l'exécuteur <br><br>
+
+## L'homme invincible !<br><br>
+
+Maintenant que vous avez compris comment faire une commande et un listener, combinez les deux !<br>
+Une fois que le joueur aura exécuter la commande `/invincible` tout les events de dégâts contre lui<br>
+seront annuler, le rendant totalement invincible !<br>
+
+<details>
+
+Modifiez le fichier [plugin.yml](plugin.yml) pour rajouter la commande (suivez l'exemple de la première commande)<br>
+Quand un joueur tape la commande, stockez le dans une `hashmap`.<br>
+Créez ensuite une nouvelle fonction `@EventHandler` dans votre listener, il devras prendre en paramètre `EntityDamageEvent`<br>
+Dans cette fonction vérifiez bien que ce joueur appartiens a la hashmap puis annulez l'évent si c'est le cas.<br><Br>
+
+</details>
 
 ## Les Item stacks et meta
+
+
+
+## Mettre des objets dans PAPI

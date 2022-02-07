@@ -6,6 +6,7 @@ public class monPremierPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
+    
     }
 
     @Override
