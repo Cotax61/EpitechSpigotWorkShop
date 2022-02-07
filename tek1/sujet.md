@@ -101,7 +101,7 @@ Le nom lui, nous permettra de différencier cet inventaire des autres quand l'é
 ## La fin... mais<br><br>
 
 Le Workshop se termine ici, nous considérons que vous avez assez appris<br>
-pour flex devant vos amis jouant a minecraf 😎<br>
+pour flex devant vos amis jouant a minecraft 😎<br>
 Néanmoins, vous pouvez poursuivre le workshop pour apprendre des choses plus avancées.<br>
 Dans le cas contraire, expérimentez ! Vous êtes libres de pouvoir faire ce que vous voulez<br>
 Créez de nouveau plugins, amusez vous et surtout...<br><br>
