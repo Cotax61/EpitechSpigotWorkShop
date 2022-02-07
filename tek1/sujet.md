@@ -93,6 +93,17 @@ Quand un joueur tapera la commande `/menu` il vera un inventaire s'ouvrir<br>
 Ce dernier lui servira menu de navigation, pour par exemple, activer son mode invincible<br><br>
 
 Utilisez la fonction `Bukkit.createInventory()` avec comme paramètres<br>
-`27`et `null` pour crée un inventaire qui n'appartien a personne avec 3 lignes<br>
+`27`, `null` et `unNom` pour créer un inventaire qui n'appartien a personne avec 3 lignes.<br>
+Le nom lui, nous permettra de différencier cet inventaire des autres quand l'évent sera appeler.<br><br>
 
-[indice (Car l'exo est un peu plus compliquer)](./.indice_menu.md)
+[indice (Car l'exo est un peu plus compliquer)](./.indice_menu.md)<br><br>
+
+## La fin... mais<br><br>
+
+Le Workshop se termine ici, nous considérons que vous avez assez appris<br>
+pour flex devant vos amis jouant a minecraf 😎<br>
+Néanmoins, vous pouvez poursuivre le workshop pour apprendre des choses plus avancées.<br>
+Dans le cas contraire, expérimentez ! Vous êtes libres de pouvoir faire ce que vous voulez<br>
+Créez de nouveau plugins, amusez vous et surtout...<br><br>
+
+N'ARRETEZ JAMAIS D'APPRENDRE<br><br>
