@@ -71,7 +71,7 @@ seront annuler, le rendant totalement invincible !<br>
 <details>
     <summary>Indice</summary>
 <br>
-Modifiez le fichier [plugin.yml](plugin.yml) pour rajouter la commande (suivez l'exemple de la première commande)<br>
+Modifiez le fichier [plugin.yml](./plugin.yml) pour rajouter la commande (suivez l'exemple de la première commande)<br>
 Quand un joueur tape la commande, stockez le dans une `hashmap`.<br>
 Créez ensuite une nouvelle fonction `@EventHandler` dans votre listener, il devras prendre en paramètre `EntityDamageEvent`<br>
 Dans cette fonction vérifiez bien que ce joueur appartiens a la hashmap puis annulez l'évent si c'est le cas.<br><Br>
