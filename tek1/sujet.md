@@ -104,6 +104,6 @@ Le Workshop se termine ici, nous considérons que vous avez assez appris<br>
 pour flex devant vos amis jouant a minecraft 😎<br>
 Néanmoins, vous pouvez poursuivre le workshop pour apprendre des choses plus avancées.<br>
 Dans le cas contraire, expérimentez ! Vous êtes libres de pouvoir faire ce que vous voulez<br>
-Créez de nouveau plugins, amusez vous et surtout comme dit le grand [Léo Techmaker]()...<br><br>
+Créez de nouveau plugins, amusez vous et surtout comme dit le grand [Léo Techmaker](https://www.youtube.com/channel/UCRhyS_ylPQ5GWBl1lK92ftA)...<br><br>
 
 [N'ARRETEZ JAMAIS D'APPRENDRE](https://www.youtube.com/watch?v=1iCwWF-D2as)<br><br>
