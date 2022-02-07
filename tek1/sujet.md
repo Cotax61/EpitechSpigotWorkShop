@@ -32,8 +32,8 @@ votre `.jar`, déplacez le dossier `server/plugins` (si il n'y est pas, lancez l
 
 Une fois cela fait, lancez votre jeu en 1.18.1, puis dans le panneau **multijoueur** cliquez sur **connection rapide**<br>
 et entrez `localhost`, vous devrez reussir a entrer en jeu, mettez vous opérateur grace a la commande<br>
-`op \<Player\>` sur votre terminal qui est en charge du serveur, puis en jeu lancez la commande `/pl` dnas le chat<br>
-Si vous avez 0 plugin, utilisez `/reload`, puis refaites la commande `/pl` si c'est toujours 0, il y a **une erreur dans votre console** ! <br>
+`op <Player>` sur votre terminal qui est en charge du serveur, puis en jeu lancez la commande `/pl` dnas le chat<br>
+Si vous avez 0 plugin, utilisez `/reload confirm`, puis refaites la commande `/pl` si c'est toujours 0, il y a **une erreur dans votre console** ! <br>
 Une fois que vous voyez votre plugin en jeu, continuez.<br><br>
 
 ## Hello... player ? <br><br>
@@ -71,15 +71,28 @@ seront annuler, le rendant totalement invincible !<br>
 <details>
     <summary>Indice</summary>
 <br>
-Modifiez le fichier [plugin.yml](./plugin.yml) pour rajouter la commande (suivez l'exemple de la première commande)<br>
-Quand un joueur tape la commande, stockez le dans une `hashmap`.<br>
-Créez ensuite une nouvelle fonction `@EventHandler` dans votre listener, il devras prendre en paramètre `EntityDamageEvent`<br>
+Modifiez le fichier plugin.yml pour rajouter la commande (suivez l'exemple de la première commande)<br>
+Quand un joueur tape la commande, stockez le dans une hashmap.<br>
+Créez ensuite une nouvelle fonction @EventHandler dans votre listener, il devras prendre en paramètre EntityDamageEvent<br>
 Dans cette fonction vérifiez bien que ce joueur appartiens a la hashmap puis annulez l'évent si c'est le cas.<br><Br>
 
 </details>
 
-## Les Item stacks et meta
+## Excalibur le retour <br><br>
 
+Encore une commande !<br>
+Quand le joueur exécutera la commande `/excalibur` il recevra une arme surpuissante !<br>
+Créez a nouveau une commande et utilisez les `ItemStack` et `ItemMeta`<br>
+Pour pouvoir créer une super arme qui sera enchantée avec `sharpness 420`<br>
 
+## My menu
 
-## Mettre des objets dans PAPI
+Il est temps de créer son premier menu intéractif !<br>
+Créez une nouvelle classe qui nous servira de base de menu.<br>
+Quand un joueur tapera la commande `/menu` il vera un inventaire s'ouvrir<br>
+Ce dernier lui servira menu de navigation, pour par exemple, activer son mode invincible<br><br>
+
+Utilisez la fonction `Bukkit.createInventory()` avec comme paramètres<br>
+`27`et `null` pour crée un inventaire qui n'appartien a personne avec 3 lignes<br>
+
+[indice (Car l'exo est un peu plus compliquer)](./.indice_menu.md)
