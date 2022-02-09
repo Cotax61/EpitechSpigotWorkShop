@@ -60,7 +60,8 @@ De plus, les HashMaps sont souvent utilisées pour stocker des informations sur 
 
 Dans cet exercice, créez un event qui compte le nombre de fois qu'un joueur a sauter <br>
 puis, stockez ce nombre dans une `static public Hashmap<UUID, Integer>` dans votre classe main <br>
-changez l'utilitée de la commande ping pour qu'elle donne le nombre de saut effectuer par l'exécuteur <br><br>
+Utilisez le `PlayerJoinEvent` et `PlayerQuitEvent` pour enregistrer et enlever le joueur de la map<br>
+changez l'utilitée de la commande ping pour qu'elle donne le nombre de saut effectuer par l'exécuteur<br><br>
 
 ## L'homme invincible !<br><br>
 
@@ -107,3 +108,18 @@ Dans le cas contraire, expérimentez ! Vous êtes libres de pouvoir faire ce que
 Créez de nouveau plugins, amusez vous et surtout comme dit le grand [Léo Techmaker](https://www.youtube.com/channel/UCRhyS_ylPQ5GWBl1lK92ftA)...<br><br>
 
 [N'ARRETEZ JAMAIS D'APPRENDRE](https://www.youtube.com/watch?v=1iCwWF-D2as)<br><br>
+
+## Les APIs externes <br><br>
+
+Ajoutez [NuVotifier](https://www.spigotmc.org/resources/nuvotifier.13449/download?version=407478) aux plugins de votre serveur.<br>
+Nous avons déjà ajouter **NuVotifier** dans la compilation donc vous pouvez déjà utiliser cette API dans votre code<br><br>
+
+Les votes sont bien souvent le meilleure moyen de rendre votre serveur visible au public.<br>
+Le but de ces dernier est de demander aux joueurs de voter sur des sites tiers qui contienent<br>
+une multitude de serveurs minecraft, cela permettra a votre serveur de se démarquer et d'avoir de<br>
+nouveaux joueurs.<br>
+**NuVotifier** permet de vous notifier lorsqu'un joueur vote pour votre serveur<br><br>
+
+Dans cet exercice nous allons uniquement utiliser la commande `/testVote <Player>` pour tester les votes<br>
+Une fois cela fais, utilisez NuVotifier pour enregistrer des votes de site externes directement sur votre serveur<br>
+Donnez une récompense quelconque au joueur ayant effectuer le vote.
