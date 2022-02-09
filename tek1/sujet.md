@@ -41,7 +41,7 @@ Une fois que vous voyez votre plugin en jeu, continuez.<br><br>
 Maintenant la partie sérieuse !<br>
 Spigot est une librairie qui permet d'injecter du code grace a ce qu'on appelle des `eventListeners` ou plus court `Listener`<br>
 Pour commencer dans le dossier `src` éditez le fichier **myListener.java**, pour vous, elle est déjà déclarée et hérite déjà du bon élément<br>
-Créez un event dans cette classe, cet event sera *hook* sur l'event de connection et evera `Hello <nom du joueur>` a ce dernier<br>
+Créez un event dans cette classe, cet *eventHandler* sur l'event de connexion et evera `Hello <nom du joueur>` a ce dernier<br>
 Hésitez pas a ajouter des couleurs pour faire plus joli ;)<br><br>
 
 ## Ping pong <br> <br>
