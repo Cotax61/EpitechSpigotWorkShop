@@ -1,0 +1,11 @@
+main: fr.tonPseudo.monPremierPlugin.monPremierPlugin
+author: tonPseudo
+name: monPremierPlugin
+api-version: 1.18
+version: 1.0
+softdepend:
+- PlaceholderAPI
+commands:
+    test:
+        usage: /test
+        description: Une commande de test

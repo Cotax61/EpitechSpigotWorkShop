@@ -2,10 +2,10 @@
 <br>
 
 Bienvenue, dans le workshop pour apprendre `Java` et `Spigot`, nous allons <br>
-Apprendre ici comment utilisez ces technologies dans le but de s'amuser ! (et de flex)<br>
-Spigot est une technologie qui vous permet de créer des plugins des **serveur minecraft**<br>
+Apprendre ici comment utiliser ces technologies dans le but de s'amuser ! (et de flex 😎)<br>
+Spigot est une technologie qui vous permet de créer des plugins pour des **serveurs minecraft**<br>
 le plus passionant dans cette dernière est qu'elle offre des possibilitées **infinies !**<br>
-Ne vous demandez pas si quelque chose est possible ou non, spigot permet de faire tout ce que vous souhaitez<br>
+Ne vous demandez pas si quelque chose est possible ou non, spigot permet de faire tout ce que vous souhaitez
 avec minecraft !<br>
 <br>
 Prérequis:<br>
@@ -27,8 +27,8 @@ le fichier eula a `true` quand il sera créer après l'exécution du script.<br>
 Choisissez le sujet correspondant a votre niveau en orienté objet:<br><br>
 
 [Ne connait pas](/tek1/sujet.md) <br>
-[Connait les base de l'OOP (Programmation Orientée Objet)] (En cours d'écriture)<br>
-[Connait bien l'OOP] (En cours d'écriture)<br>
+[Connait les base de l'OOP (Object-oriented programming)](/tek2/sujet.md)<br>
+[Connait bien l'OOP](/tek3/sujet.md)<br>
 <br>
 
 ## Experimentation | Si vous avez fini le sujet<br><br>
