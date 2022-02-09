@@ -122,4 +122,20 @@ nouveaux joueurs.<br>
 
 Dans cet exercice nous allons uniquement utiliser la commande `/testVote <Player>` pour tester les votes<br>
 Une fois cela fais, utilisez NuVotifier pour enregistrer des votes de site externes directement sur votre serveur<br>
-Donnez une récompense quelconque au joueur ayant effectuer le vote.
+Donnez une récompense quelconque au joueur ayant effectuer le vote.<br><br>
+
+## Mettre des objets dans PAPI <br><br>
+
+**PAPI** ou **PlaceholderAPI** est un plugin servant de pont entre le plugins<br>
+Vous pouvez y placer des variables qui seront surveillées par **PAPI**<br>
+Cette API est extrèmement utile si vous voulez montrer des informations de plusieurs plugins<br>
+dans un seul bloc. Installez [ScoreBoard-R](https://www.spigotmc.org/resources/scoreboard.14754/download?version=388422) sur votre serveur.<br><br>
+
+Une fois cela fais nous allons stocker des donnes dans PAPI (tels que le nombre de saut pour faire simple)<br>
+Et affichez les grâce a **ScoreBoard-R** sur la droite de l'écran du joueur.<br><br>
+
+__**A Noter**__<br><br>
+
+Si vous utilisez des plugins externes tel que **Jobs**, **Advanced-Achievements** etc...<br>
+Ces derniers sont souvent fournis avec des variables que vous pouvez récupérer avec PAPI<br>
+Utile si vous voulez faire une extention a **Jobs** par exemple.
