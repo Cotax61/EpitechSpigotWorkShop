@@ -61,7 +61,7 @@ De plus, les HashMaps sont souvent utilisées pour stocker des informations sur 
 Dans cet exercice, créez un event qui compte le nombre de fois qu'un joueur a sauter <br>
 puis, stockez ce nombre dans une `static public Hashmap<UUID, Integer>` dans votre classe main <br>
 Utilisez le `PlayerJoinEvent` et `PlayerQuitEvent` pour enregistrer et enlever le joueur de la map<br>
-changez l'utilitée de la commande ping pour qu'elle donne le nombre de saut effectuer par l'exécuteur<br><br>
+changez l'utilitée de la commande ping pour qu'elle donne le nombre de fois ou le joueur a taper une entitée effectuer par l'exécuteur<br><br>
 
 ## L'homme invincible !<br><br>
 
