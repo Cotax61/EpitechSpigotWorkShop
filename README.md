@@ -10,7 +10,7 @@ avec minecraft !<br>
 <br>
 Prérequis:<br>
 
-- Minecraft launcher 1.18.1 (Si vous n'avez pas acheter minecraft utilisez [az launcher](https://www.az-launcher.nz/fr/))
+- Minecraft launcher 1.19.2 (Si vous n'avez pas acheter minecraft utilisez [az launcher](https://www.az-launcher.nz/fr/))
 - Maven
 - VS Code (Avec l'extention Java) [Fortement recommendé]
 - JDK 1.17
@@ -24,11 +24,7 @@ pour se faire, exécutez le script `start` correspondant a votre shell (`.ps1` p
 il est recommender de le lancer maintenant pour qu'il puisse créer le monde, n'oubliez pas de passer<br>
 le fichier eula a `true` quand il sera créer après l'exécution du script.<br><br>
 
-Choisissez le sujet correspondant a votre niveau en orienté objet:<br><br>
-
-[Ne connait pas](/tek1/sujet.md) <br>
-[Connait les base de l'OOP (Object-oriented programming)](/tek2/sujet.md)<br>
-[Connait bien l'OOP](/tek3/sujet.md)<br>
+[Lien vers le sujet](/exercices/sujet.md) <br>
 <br>
 
 ## Experimentation | Si vous avez fini le sujet<br><br>
