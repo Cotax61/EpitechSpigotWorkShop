@@ -1,19 +1,3 @@
-# L'orienté objet, c'est quoi ? <br><br>
-
-### Version très simplifiée !<br>
-
-Pour ceux qui on coder en `C` pour, imaginez un objet comme une structure, sauf que vous pouvez y implémenter directement des fonctions à l'intérieur.<br><br>
-
-Prenons un **appareil électronique lambda**, ce dernier pour fonctionner a besoins d'une `batterie`, d'ou il tire l'électricitée pour fonctionner.<br>
-Cet appareil peut être chargé, faire des demandes en énergie, ou envoyer des signaux.<br>
-Ensuite, prenons un téléphone, ce dernier **est** un appareil électronique, dans ce cas la, nous pouvons fusioner les deux classe pour crée une classe téléphone, possédants les attribut d'un appareil électronique.<br><br>
-
-Pour avoir un exemple de code, regardez les fichier suivants: <br><br>
-
-- [Déclaration d'une classe basique](./exemple/Battery.java)
-- [Ajout d'une classe dans une autre objet](./exemple/Electronic.java)
-- [Héritage d'une classe vers une autre](./exemple/Phone.java)<br><br>
-
 ## A savoir <br><br>
 
 Pour compiler votre plugin, utilisez la commande `mvn package` a la racine du repository, il est déjà pré-rempli, mais **n'oubliez pas de modifier le sourceDirectory**, il se trouve tout en bas du [pom.xml](./pom.xml)<br><br>
@@ -69,16 +53,6 @@ Maintenant que vous avez compris comment faire une commande et un listener, comb
 Une fois que le joueur aura exécuter la commande `/invincible` tout les events de dégâts contre lui<br>
 seront annuler, le rendant totalement invincible !<br>
 
-<details>
-    <summary>Indice</summary>
-<br>
-Modifiez le fichier plugin.yml pour rajouter la commande (suivez l'exemple de la première commande)<br>
-Quand un joueur tape la commande, stockez le dans une hashmap.<br>
-Créez ensuite une nouvelle fonction @EventHandler dans votre listener, il devras prendre en paramètre EntityDamageEvent<br>
-Dans cette fonction vérifiez bien que ce joueur appartiens a la hashmap puis annulez l'évent si c'est le cas.<br><Br>
-
-</details>
-
 ## Excalibur le retour <br><br>
 
 Encore une commande !<br>
@@ -97,7 +71,8 @@ Utilisez la fonction `Bukkit.createInventory()` avec comme paramètres<br>
 `27`, `null` et `unNom` pour créer un inventaire qui n'appartien a personne avec 3 lignes.<br>
 Le nom lui, nous permettra de différencier cet inventaire des autres quand l'évent sera appeler.<br><br>
 
-[indice (Car l'exo est un peu plus compliquer)](./.indice_menu.md)<br><br>
+Je vous conseille de faire une fonction pour génrérer des objets rapidements<br>
+Sinon créer un objet pour faire chaque action sera compliquer...<br><br>
 
 ## La fin... mais<br><br>
 
