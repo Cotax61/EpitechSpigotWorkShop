@@ -47,7 +47,7 @@ Hésitez pas a ajouter des couleurs pour faire plus joli ;)<br><br>
 **/!\ A ne pas oublier ! /!\\**
 
 Vous devez ajouter votre listener dans la fonction `onEnable()` de votre classe main, sans cela, votre fonction ne sera pas enregistrée.<br>
-Pour faire cela, utilisez `getServer().getPluginManager().registerEvents()`  <br>
+Pour faire cela, utilisez `getServer().getPluginManager().registerEvents()` une fois utilisée avec les bons arguments, les events seront reçu<br><br>
 
 ## Ping pong <br> <br>
 
@@ -63,9 +63,9 @@ De préférence nous allons donc stocker nos données avec des variables statiqu
 Pour que ces dernières soient accéssibles partout sans a instancier une nouvelle classe. <br>
 De plus, les HashMaps sont souvent utilisées pour stocker des informations sur les joueurs <br><br>
 
-Dans cet exercice, créez un event qui compte le nombre de fois qu'un joueur a sauter <br>
+Dans cet exercice, créez un event qui compte le nombre de fois qu'un joueur a blesser une entitée <br>
 puis, stockez ce nombre dans une `static public Hashmap<UUID, Integer>` dans votre classe main <br>
-changez l'utilitée de la commande ping pour qu'elle donne le nombre de saut effectuer par l'exécuteur <br><br>
+changez l'utilitée de la commande ping pour qu'elle donne le nombre d'entité bléssée par l'exécuteur <br><br>
 
 ## L'homme invincible !<br><br>
 
