@@ -112,3 +112,21 @@ Dans le cas contraire, expérimentez ! Vous êtes libres de pouvoir faire ce que
 Créez de nouveau plugins, amusez vous et surtout comme dit le grand [Léo Techmaker](https://www.youtube.com/channel/UCRhyS_ylPQ5GWBl1lK92ftA)...<br><br>
 
 [N'ARRETEZ JAMAIS D'APPRENDRE](https://www.youtube.com/watch?v=1iCwWF-D2as)<br><br>
+
+# Bonus : Les APIs <br><br>
+
+## Les APIs <br><br>
+
+Les APIs sont des librairies qui permettent de faire des choses plus complexes que ce que nous avons vu jusque là.<br>
+Vous pouvez faire des choses tels que des placeholders, un système de vote, un système de shop, etc...<br>
+Ici, nous allons utilise une API qui permet de créer des placeholders, qui sont des variables qui peuvent être utilisées<br>
+dans le chat, les tablistes, les scoreboards, etc...<br>
+Cela vous permettra d'afficher des informations de manière dynamique.<br><br>
+
+## Mettre des objets dans PAPI <br><br>
+
+PAPI ou PlaceHolderAPI est un plugin qui permet d'ajouter des placeholders dans le chat, les tablistes, les scoreboards, etc...<br>
+Pour commencer, créez une classe qui hérite de `PlaceholderExpansion`<br>
+Intégrez toutes les fonctions obligatoires (Vous pouvez les trouver sur le wiki de PAPI, ou votre IDE vous donneras les noms)<br>
+Une fois cela fais, créez une fonction qui renverra le nombre de fois qu'un joueur a blesser une entitée<br>
+Maintenant, créez une épée qui montre le nombre de fois qu'un joueur a blesser une entitée, grace a PAPI<br>
